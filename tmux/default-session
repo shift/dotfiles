@@ -1,0 +1,4 @@
+new -s default
+neww -n shell-fm shell-fm
+neww -n irssi irssi
+neww -n bash bash
