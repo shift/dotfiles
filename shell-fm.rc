@@ -1,4 +1,5 @@
 username = shiftx
 default-radio = lastfm://user/shiftx/personal
 discovery = true
-np-cmd = tmux rename-window -tdefault:1 %a\ -\ %t
+np-file = /home/shift/.shell-fm/current
+np-file-format = %a - %t
