@@ -1,7 +1,13 @@
 call pathogen#infect()
 syntax on
+
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
+
 set background=dark
-colorscheme solarized
+" colorscheme solarized
+colorscheme xoria256
 set nocompatible
 set autoindent
 set expandtab
