@@ -8,12 +8,6 @@ ln -s $PWD/tmux.conf ~/.tmux.conf
 cp -a $PWD/tmux ~/.tmux
 echo -n ". "
 
-echo -n "shell-fm.conf"
-mkdir -p ~/.shell-fm ~/.vim/tmp ~/.vim/backup
-mv ~/.shell-fm/shell-fm.rc ~/.shell-fm/shell-fm.rc.bak > /dev/null 2>&1
-ln -s $PWD/shell-fm.rc ~/.shell-fm/shell-fm.rc
-echo -n ". "
-
 echo -n "vimrc"
 mv ~/.vimrc ~/.vimrc.bak  > /dev/null 2>&1
 ln -s $PWD/vimrc ~/.vimrc
