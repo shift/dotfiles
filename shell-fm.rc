@@ -1,5 +1,0 @@
-username = shiftx
-default-radio = lastfm://user/shiftx/personal
-discovery = true
-np-file = /home/shift/.shell-fm/current
-np-file-format = %a - %t
